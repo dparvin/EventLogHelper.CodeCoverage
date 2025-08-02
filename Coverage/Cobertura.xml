@@ -1,582 +1,1943 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="1" branch-rate="1" lines-covered="164" lines-valid="164" branches-covered="26" branches-valid="26" complexity="89" version="0" timestamp="1753571857">
+<coverage line-rate="1" branch-rate="1" lines-covered="604" lines-valid="604" branches-covered="36" branches-valid="36" complexity="165" version="0" timestamp="1754148258">
   <sources>
     <source>c:\</source>
   </sources>
   <packages>
-    <package name="EventLogHelper" line-rate="1" branch-rate="1" complexity="89">
+    <package name="EventLogHelper" line-rate="1" branch-rate="1" complexity="165">
       <classes>
-        <class name="EventLogHelper.SmartEventLogger" filename="c:\agent\_work\12\s\Code\EventLogHelper\EventLogHelper\SmartEventLogger.vb" line-rate="1" branch-rate="1" complexity="89">
+        <class name="EventLogHelper.SmartEventLogger" filename="c:\agent\_work\12\s\Code\EventLogHelper\EventLogHelper\SmartEventLogger.vb" line-rate="1" branch-rate="1" complexity="165">
           <methods>
             <method name="SetWriter" signature="(EventLogHelper.IEventLogWriter)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="48" hits="92" branch="false" />
-                <line number="49" hits="184" branch="false" />
-                <line number="50" hits="184" branch="false" />
+                <line number="52" hits="104" branch="false" />
+                <line number="53" hits="208" branch="false" />
+                <line number="54" hits="208" branch="false" />
+              </lines>
+            </method>
+            <method name="SetRegistryReader" signature="(EventLogHelper.IRegistryReader)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="60" hits="20" branch="false" />
+                <line number="62" hits="40" branch="false" />
+                <line number="64" hits="40" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="65" hits="4" branch="false" />
-                <line number="66" hits="4" branch="false" />
-                <line number="68" hits="8" branch="false" />
-                <line number="70" hits="8" branch="false" />
+                <line number="139" hits="4" branch="false" />
+                <line number="140" hits="4" branch="false" />
+                <line number="142" hits="8" branch="false" />
+                <line number="144" hits="8" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="87" hits="4" branch="false" />
-                <line number="88" hits="4" branch="false" />
-                <line number="89" hits="4" branch="false" />
-                <line number="91" hits="8" branch="false" />
-                <line number="93" hits="8" branch="false" />
+                <line number="161" hits="4" branch="false" />
+                <line number="162" hits="4" branch="false" />
+                <line number="163" hits="4" branch="false" />
+                <line number="165" hits="8" branch="false" />
+                <line number="167" hits="8" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="111" hits="4" branch="false" />
-                <line number="112" hits="4" branch="false" />
-                <line number="113" hits="4" branch="false" />
-                <line number="115" hits="8" branch="false" />
-                <line number="117" hits="8" branch="false" />
+                <line number="185" hits="4" branch="false" />
+                <line number="186" hits="4" branch="false" />
+                <line number="187" hits="4" branch="false" />
+                <line number="189" hits="8" branch="false" />
+                <line number="191" hits="8" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="138" hits="12" branch="false" />
-                <line number="139" hits="12" branch="false" />
-                <line number="140" hits="12" branch="false" />
-                <line number="141" hits="12" branch="false" />
-                <line number="143" hits="24" branch="false" />
-                <line number="145" hits="24" branch="false" />
+                <line number="212" hits="12" branch="false" />
+                <line number="213" hits="12" branch="false" />
+                <line number="214" hits="12" branch="false" />
+                <line number="215" hits="12" branch="false" />
+                <line number="217" hits="24" branch="false" />
+                <line number="219" hits="24" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String,System.Diagnostics.EventLogEntryType)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="167" hits="4" branch="false" />
-                <line number="168" hits="4" branch="false" />
-                <line number="169" hits="4" branch="false" />
-                <line number="170" hits="4" branch="false" />
-                <line number="172" hits="8" branch="false" />
-                <line number="174" hits="8" branch="false" />
+                <line number="241" hits="8" branch="false" />
+                <line number="242" hits="8" branch="false" />
+                <line number="243" hits="8" branch="false" />
+                <line number="244" hits="8" branch="false" />
+                <line number="246" hits="16" branch="false" />
+                <line number="248" hits="16" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String,System.String,System.Diagnostics.EventLogEntryType)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="200" hits="24" branch="false" />
-                <line number="201" hits="24" branch="false" />
-                <line number="202" hits="24" branch="false" />
-                <line number="203" hits="24" branch="false" />
-                <line number="204" hits="24" branch="false" />
-                <line number="206" hits="48" branch="false" />
-                <line number="208" hits="48" branch="false" />
+                <line number="274" hits="24" branch="false" />
+                <line number="275" hits="24" branch="false" />
+                <line number="276" hits="24" branch="false" />
+                <line number="277" hits="24" branch="false" />
+                <line number="278" hits="24" branch="false" />
+                <line number="280" hits="48" branch="false" />
+                <line number="282" hits="48" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="229" hits="4" branch="false" />
-                <line number="230" hits="4" branch="false" />
-                <line number="231" hits="4" branch="false" />
-                <line number="232" hits="4" branch="false" />
-                <line number="234" hits="8" branch="false" />
-                <line number="236" hits="8" branch="false" />
+                <line number="303" hits="4" branch="false" />
+                <line number="304" hits="4" branch="false" />
+                <line number="305" hits="4" branch="false" />
+                <line number="306" hits="4" branch="false" />
+                <line number="308" hits="8" branch="false" />
+                <line number="310" hits="8" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="261" hits="4" branch="false" />
-                <line number="262" hits="4" branch="false" />
-                <line number="263" hits="4" branch="false" />
-                <line number="264" hits="4" branch="false" />
-                <line number="265" hits="4" branch="false" />
-                <line number="267" hits="8" branch="false" />
-                <line number="269" hits="8" branch="false" />
+                <line number="335" hits="4" branch="false" />
+                <line number="336" hits="4" branch="false" />
+                <line number="337" hits="4" branch="false" />
+                <line number="338" hits="4" branch="false" />
+                <line number="339" hits="4" branch="false" />
+                <line number="341" hits="8" branch="false" />
+                <line number="343" hits="8" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="298" hits="32" branch="false" />
-                <line number="299" hits="32" branch="false" />
-                <line number="300" hits="32" branch="false" />
-                <line number="301" hits="32" branch="false" />
-                <line number="302" hits="32" branch="false" />
-                <line number="303" hits="32" branch="false" />
-                <line number="305" hits="64" branch="false" />
-                <line number="307" hits="64" branch="false" />
+                <line number="372" hits="32" branch="false" />
+                <line number="373" hits="32" branch="false" />
+                <line number="374" hits="32" branch="false" />
+                <line number="375" hits="32" branch="false" />
+                <line number="376" hits="32" branch="false" />
+                <line number="377" hits="32" branch="false" />
+                <line number="379" hits="64" branch="false" />
+                <line number="381" hits="64" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="331" hits="4" branch="false" />
-                <line number="332" hits="4" branch="false" />
-                <line number="333" hits="4" branch="false" />
-                <line number="334" hits="4" branch="false" />
-                <line number="335" hits="4" branch="false" />
-                <line number="337" hits="8" branch="false" />
-                <line number="339" hits="8" branch="false" />
+                <line number="405" hits="4" branch="false" />
+                <line number="406" hits="4" branch="false" />
+                <line number="407" hits="4" branch="false" />
+                <line number="408" hits="4" branch="false" />
+                <line number="409" hits="4" branch="false" />
+                <line number="411" hits="8" branch="false" />
+                <line number="413" hits="8" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="367" hits="8" branch="false" />
-                <line number="368" hits="8" branch="false" />
-                <line number="369" hits="8" branch="false" />
-                <line number="370" hits="8" branch="false" />
-                <line number="371" hits="8" branch="false" />
-                <line number="372" hits="8" branch="false" />
-                <line number="374" hits="16" branch="false" />
-                <line number="376" hits="16" branch="false" />
+                <line number="441" hits="8" branch="false" />
+                <line number="442" hits="8" branch="false" />
+                <line number="443" hits="8" branch="false" />
+                <line number="444" hits="8" branch="false" />
+                <line number="445" hits="8" branch="false" />
+                <line number="446" hits="8" branch="false" />
+                <line number="448" hits="16" branch="false" />
+                <line number="450" hits="16" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="408" hits="44" branch="false" />
-                <line number="409" hits="44" branch="false" />
-                <line number="410" hits="44" branch="false" />
-                <line number="411" hits="44" branch="false" />
-                <line number="412" hits="44" branch="false" />
-                <line number="413" hits="44" branch="false" />
-                <line number="414" hits="44" branch="false" />
-                <line number="416" hits="88" branch="false" />
-                <line number="418" hits="88" branch="false" />
+                <line number="482" hits="44" branch="false" />
+                <line number="483" hits="44" branch="false" />
+                <line number="484" hits="44" branch="false" />
+                <line number="485" hits="44" branch="false" />
+                <line number="486" hits="44" branch="false" />
+                <line number="487" hits="44" branch="false" />
+                <line number="488" hits="44" branch="false" />
+                <line number="490" hits="88" branch="false" />
+                <line number="492" hits="88" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.Byte[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="434" hits="4" branch="false" />
-                <line number="435" hits="4" branch="false" />
-                <line number="436" hits="4" branch="false" />
-                <line number="438" hits="8" branch="false" />
-                <line number="440" hits="8" branch="false" />
+                <line number="508" hits="4" branch="false" />
+                <line number="509" hits="4" branch="false" />
+                <line number="510" hits="4" branch="false" />
+                <line number="512" hits="8" branch="false" />
+                <line number="514" hits="8" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Byte[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="461" hits="8" branch="false" />
-                <line number="462" hits="8" branch="false" />
-                <line number="463" hits="8" branch="false" />
-                <line number="464" hits="8" branch="false" />
-                <line number="466" hits="16" branch="false" />
-                <line number="468" hits="16" branch="false" />
+                <line number="535" hits="8" branch="false" />
+                <line number="536" hits="8" branch="false" />
+                <line number="537" hits="8" branch="false" />
+                <line number="538" hits="8" branch="false" />
+                <line number="540" hits="16" branch="false" />
+                <line number="542" hits="16" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Byte[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="492" hits="12" branch="false" />
-                <line number="493" hits="12" branch="false" />
-                <line number="494" hits="12" branch="false" />
-                <line number="495" hits="12" branch="false" />
-                <line number="496" hits="12" branch="false" />
-                <line number="498" hits="24" branch="false" />
-                <line number="500" hits="24" branch="false" />
+                <line number="566" hits="12" branch="false" />
+                <line number="567" hits="12" branch="false" />
+                <line number="568" hits="12" branch="false" />
+                <line number="569" hits="12" branch="false" />
+                <line number="570" hits="12" branch="false" />
+                <line number="572" hits="24" branch="false" />
+                <line number="574" hits="24" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="527" hits="16" branch="false" />
-                <line number="528" hits="16" branch="false" />
-                <line number="529" hits="16" branch="false" />
-                <line number="530" hits="16" branch="false" />
-                <line number="531" hits="16" branch="false" />
-                <line number="532" hits="16" branch="false" />
-                <line number="534" hits="32" branch="false" />
-                <line number="536" hits="32" branch="false" />
+                <line number="601" hits="16" branch="false" />
+                <line number="602" hits="16" branch="false" />
+                <line number="603" hits="16" branch="false" />
+                <line number="604" hits="16" branch="false" />
+                <line number="605" hits="16" branch="false" />
+                <line number="606" hits="16" branch="false" />
+                <line number="608" hits="32" branch="false" />
+                <line number="610" hits="32" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="567" hits="4" branch="false" />
-                <line number="568" hits="4" branch="false" />
-                <line number="569" hits="4" branch="false" />
-                <line number="570" hits="4" branch="false" />
-                <line number="571" hits="4" branch="false" />
-                <line number="572" hits="4" branch="false" />
-                <line number="573" hits="4" branch="false" />
-                <line number="575" hits="8" branch="false" />
-                <line number="577" hits="8" branch="false" />
+                <line number="641" hits="4" branch="false" />
+                <line number="642" hits="4" branch="false" />
+                <line number="643" hits="4" branch="false" />
+                <line number="644" hits="4" branch="false" />
+                <line number="645" hits="4" branch="false" />
+                <line number="646" hits="4" branch="false" />
+                <line number="647" hits="4" branch="false" />
+                <line number="649" hits="8" branch="false" />
+                <line number="651" hits="8" branch="false" />
               </lines>
             </method>
-            <method name="Log" signature="(System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[])" line-rate="1" branch-rate="1" complexity="18">
+            <method name="Log" signature="(System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="612" hits="92" branch="false" />
-                <line number="613" hits="92" branch="false" />
-                <line number="614" hits="92" branch="false" />
-                <line number="615" hits="92" branch="false" />
-                <line number="616" hits="92" branch="false" />
-                <line number="617" hits="92" branch="false" />
-                <line number="618" hits="92" branch="false" />
-                <line number="619" hits="92" branch="false" />
-                <line number="621" hits="184" branch="true" condition-coverage="100% (2/2)" />
-                <line number="622" hits="184" branch="false" />
-                <line number="624" hits="184" branch="true" condition-coverage="100% (4/4)" />
-                <line number="625" hits="168" branch="false" />
-                <line number="626" hits="176" branch="false" />
-                <line number="627" hits="184" branch="true" condition-coverage="100% (2/2)" />
-                <line number="628" hits="328" branch="true" condition-coverage="100% (2/2)" />
-                <line number="629" hits="368" branch="true" condition-coverage="100% (2/2)" />
-                <line number="634" hits="184" branch="true" condition-coverage="100% (2/2)" />
-                <line number="636" hits="8" branch="false" />
-                <line number="637" hits="8" branch="false" />
-                <line number="638" hits="96" branch="false" />
-                <line number="639" hits="184" branch="true" condition-coverage="100% (4/4)" />
-                <line number="640" hits="68" branch="false" />
-                <line number="642" hits="24" branch="false" />
-                <line number="643" hits="48" branch="false" />
-                <line number="644" hits="92" branch="false" />
-                <line number="645" hits="184" branch="false" />
-                <line number="647" hits="184" branch="false" />
+                <line number="686" hits="28" branch="false" />
+                <line number="687" hits="28" branch="false" />
+                <line number="688" hits="28" branch="false" />
+                <line number="689" hits="28" branch="false" />
+                <line number="690" hits="28" branch="false" />
+                <line number="691" hits="28" branch="false" />
+                <line number="692" hits="28" branch="false" />
+                <line number="693" hits="28" branch="false" />
+                <line number="695" hits="56" branch="false" />
+                <line number="696" hits="56" branch="false" />
+                <line number="697" hits="56" branch="false" />
+                <line number="698" hits="56" branch="false" />
+                <line number="699" hits="56" branch="false" />
+                <line number="700" hits="56" branch="false" />
+                <line number="701" hits="56" branch="false" />
+                <line number="702" hits="56" branch="false" />
+                <line number="703" hits="56" branch="false" />
+                <line number="705" hits="56" branch="false" />
               </lines>
             </method>
-            <method name="GetDefaultEventSourceName" signature="(System.String)" line-rate="1" branch-rate="1" complexity="8">
+            <method name="Log" signature="(System.String,System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="655" hits="92" branch="false" />
-                <line number="658" hits="184" branch="false" />
-                <line number="660" hits="184" branch="true" condition-coverage="100% (2/2)" />
-                <line number="662" hits="104" branch="false" />
-                <line number="664" hits="104" branch="false" />
-                <line number="665" hits="104" branch="false" />
-                <line number="666" hits="416" branch="false" />
-                <line number="667" hits="416" branch="false" />
-                <line number="668" hits="416" branch="false" />
-                <line number="669" hits="416" branch="true" condition-coverage="100% (2/2)" />
-                <line number="670" hits="104" branch="false" />
-                <line number="671" hits="104" branch="false" />
-                <line number="672" hits="156" branch="false" />
-                <line number="673" hits="312" branch="true" condition-coverage="100% (2/2)" />
-                <line number="674" hits="40" branch="false" />
-                <line number="675" hits="80" branch="false" />
-                <line number="676" hits="92" branch="false" />
-                <line number="679" hits="192" branch="true" condition-coverage="100% (2/2)" />
-                <line number="681" hits="184" branch="false" />
-                <line number="683" hits="184" branch="false" />
+                <line number="740" hits="92" branch="false" />
+                <line number="741" hits="92" branch="false" />
+                <line number="742" hits="92" branch="false" />
+                <line number="743" hits="92" branch="false" />
+                <line number="744" hits="92" branch="false" />
+                <line number="745" hits="92" branch="false" />
+                <line number="746" hits="92" branch="false" />
+                <line number="747" hits="92" branch="false" />
+                <line number="748" hits="92" branch="false" />
+                <line number="750" hits="184" branch="false" />
+                <line number="751" hits="184" branch="false" />
+                <line number="752" hits="184" branch="false" />
+                <line number="753" hits="184" branch="false" />
+                <line number="754" hits="184" branch="false" />
+                <line number="755" hits="184" branch="false" />
+                <line number="756" hits="184" branch="false" />
+                <line number="757" hits="184" branch="false" />
+                <line number="758" hits="184" branch="false" />
+                <line number="759" hits="184" branch="false" />
+                <line number="761" hits="184" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="800" hits="92" branch="false" />
+                <line number="801" hits="92" branch="false" />
+                <line number="802" hits="92" branch="false" />
+                <line number="803" hits="92" branch="false" />
+                <line number="804" hits="92" branch="false" />
+                <line number="805" hits="92" branch="false" />
+                <line number="806" hits="92" branch="false" />
+                <line number="807" hits="92" branch="false" />
+                <line number="808" hits="92" branch="false" />
+                <line number="809" hits="92" branch="false" />
+                <line number="811" hits="184" branch="false" />
+                <line number="812" hits="184" branch="false" />
+                <line number="813" hits="184" branch="false" />
+                <line number="814" hits="184" branch="false" />
+                <line number="815" hits="184" branch="false" />
+                <line number="816" hits="184" branch="false" />
+                <line number="817" hits="184" branch="false" />
+                <line number="818" hits="184" branch="false" />
+                <line number="819" hits="184" branch="false" />
+                <line number="820" hits="184" branch="false" />
+                <line number="821" hits="184" branch="false" />
+                <line number="823" hits="184" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="844" hits="4" branch="false" />
+                <line number="845" hits="4" branch="false" />
+                <line number="846" hits="4" branch="false" />
+                <line number="847" hits="4" branch="false" />
+                <line number="849" hits="8" branch="false" />
+                <line number="850" hits="8" branch="false" />
+                <line number="851" hits="8" branch="false" />
+                <line number="852" hits="8" branch="false" />
+                <line number="853" hits="8" branch="false" />
+                <line number="855" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="881" hits="4" branch="false" />
+                <line number="882" hits="4" branch="false" />
+                <line number="883" hits="4" branch="false" />
+                <line number="884" hits="4" branch="false" />
+                <line number="885" hits="4" branch="false" />
+                <line number="887" hits="8" branch="false" />
+                <line number="888" hits="8" branch="false" />
+                <line number="889" hits="8" branch="false" />
+                <line number="890" hits="8" branch="false" />
+                <line number="891" hits="8" branch="false" />
+                <line number="892" hits="8" branch="false" />
+                <line number="894" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="923" hits="4" branch="false" />
+                <line number="924" hits="4" branch="false" />
+                <line number="925" hits="4" branch="false" />
+                <line number="926" hits="4" branch="false" />
+                <line number="927" hits="4" branch="false" />
+                <line number="928" hits="4" branch="false" />
+                <line number="930" hits="8" branch="false" />
+                <line number="931" hits="8" branch="false" />
+                <line number="932" hits="8" branch="false" />
+                <line number="933" hits="8" branch="false" />
+                <line number="934" hits="8" branch="false" />
+                <line number="935" hits="8" branch="false" />
+                <line number="936" hits="8" branch="false" />
+                <line number="938" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="970" hits="4" branch="false" />
+                <line number="971" hits="4" branch="false" />
+                <line number="972" hits="4" branch="false" />
+                <line number="973" hits="4" branch="false" />
+                <line number="974" hits="4" branch="false" />
+                <line number="975" hits="4" branch="false" />
+                <line number="976" hits="4" branch="false" />
+                <line number="978" hits="8" branch="false" />
+                <line number="979" hits="8" branch="false" />
+                <line number="980" hits="8" branch="false" />
+                <line number="981" hits="8" branch="false" />
+                <line number="982" hits="8" branch="false" />
+                <line number="983" hits="8" branch="false" />
+                <line number="984" hits="8" branch="false" />
+                <line number="985" hits="8" branch="false" />
+                <line number="987" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1022" hits="4" branch="false" />
+                <line number="1023" hits="4" branch="false" />
+                <line number="1024" hits="4" branch="false" />
+                <line number="1025" hits="4" branch="false" />
+                <line number="1026" hits="4" branch="false" />
+                <line number="1027" hits="4" branch="false" />
+                <line number="1028" hits="4" branch="false" />
+                <line number="1029" hits="4" branch="false" />
+                <line number="1031" hits="8" branch="false" />
+                <line number="1032" hits="8" branch="false" />
+                <line number="1033" hits="8" branch="false" />
+                <line number="1034" hits="8" branch="false" />
+                <line number="1035" hits="8" branch="false" />
+                <line number="1036" hits="8" branch="false" />
+                <line number="1037" hits="8" branch="false" />
+                <line number="1038" hits="8" branch="false" />
+                <line number="1039" hits="8" branch="false" />
+                <line number="1041" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1080" hits="4" branch="false" />
+                <line number="1081" hits="4" branch="false" />
+                <line number="1082" hits="4" branch="false" />
+                <line number="1083" hits="4" branch="false" />
+                <line number="1084" hits="4" branch="false" />
+                <line number="1085" hits="4" branch="false" />
+                <line number="1086" hits="4" branch="false" />
+                <line number="1087" hits="4" branch="false" />
+                <line number="1088" hits="4" branch="false" />
+                <line number="1090" hits="8" branch="false" />
+                <line number="1091" hits="8" branch="false" />
+                <line number="1092" hits="8" branch="false" />
+                <line number="1093" hits="8" branch="false" />
+                <line number="1094" hits="8" branch="false" />
+                <line number="1095" hits="8" branch="false" />
+                <line number="1096" hits="8" branch="false" />
+                <line number="1097" hits="8" branch="false" />
+                <line number="1098" hits="8" branch="false" />
+                <line number="1099" hits="8" branch="false" />
+                <line number="1101" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1144" hits="4" branch="false" />
+                <line number="1145" hits="4" branch="false" />
+                <line number="1146" hits="4" branch="false" />
+                <line number="1147" hits="4" branch="false" />
+                <line number="1148" hits="4" branch="false" />
+                <line number="1149" hits="4" branch="false" />
+                <line number="1150" hits="4" branch="false" />
+                <line number="1151" hits="4" branch="false" />
+                <line number="1152" hits="4" branch="false" />
+                <line number="1153" hits="4" branch="false" />
+                <line number="1155" hits="8" branch="false" />
+                <line number="1156" hits="8" branch="false" />
+                <line number="1157" hits="8" branch="false" />
+                <line number="1158" hits="8" branch="false" />
+                <line number="1159" hits="8" branch="false" />
+                <line number="1160" hits="8" branch="false" />
+                <line number="1161" hits="8" branch="false" />
+                <line number="1162" hits="8" branch="false" />
+                <line number="1163" hits="8" branch="false" />
+                <line number="1164" hits="8" branch="false" />
+                <line number="1165" hits="8" branch="false" />
+                <line number="1167" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1210" hits="96" branch="false" />
+                <line number="1211" hits="96" branch="false" />
+                <line number="1212" hits="96" branch="false" />
+                <line number="1213" hits="96" branch="false" />
+                <line number="1214" hits="96" branch="false" />
+                <line number="1215" hits="96" branch="false" />
+                <line number="1216" hits="96" branch="false" />
+                <line number="1217" hits="96" branch="false" />
+                <line number="1218" hits="96" branch="false" />
+                <line number="1219" hits="96" branch="false" />
+                <line number="1220" hits="96" branch="false" />
+                <line number="1222" hits="192" branch="false" />
+                <line number="1223" hits="192" branch="false" />
+                <line number="1224" hits="192" branch="false" />
+                <line number="1225" hits="192" branch="false" />
+                <line number="1226" hits="192" branch="false" />
+                <line number="1227" hits="192" branch="false" />
+                <line number="1228" hits="192" branch="false" />
+                <line number="1229" hits="192" branch="false" />
+                <line number="1230" hits="192" branch="false" />
+                <line number="1231" hits="192" branch="false" />
+                <line number="1232" hits="192" branch="false" />
+                <line number="1233" hits="192" branch="false" />
+                <line number="1235" hits="192" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1259" hits="4" branch="false" />
+                <line number="1260" hits="4" branch="false" />
+                <line number="1261" hits="4" branch="false" />
+                <line number="1262" hits="4" branch="false" />
+                <line number="1263" hits="4" branch="false" />
+                <line number="1265" hits="8" branch="false" />
+                <line number="1266" hits="8" branch="false" />
+                <line number="1267" hits="8" branch="false" />
+                <line number="1268" hits="8" branch="false" />
+                <line number="1269" hits="8" branch="false" />
+                <line number="1270" hits="8" branch="false" />
+                <line number="1272" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1301" hits="4" branch="false" />
+                <line number="1302" hits="4" branch="false" />
+                <line number="1303" hits="4" branch="false" />
+                <line number="1304" hits="4" branch="false" />
+                <line number="1305" hits="4" branch="false" />
+                <line number="1306" hits="4" branch="false" />
+                <line number="1308" hits="8" branch="false" />
+                <line number="1309" hits="8" branch="false" />
+                <line number="1310" hits="8" branch="false" />
+                <line number="1311" hits="8" branch="false" />
+                <line number="1312" hits="8" branch="false" />
+                <line number="1313" hits="8" branch="false" />
+                <line number="1314" hits="8" branch="false" />
+                <line number="1316" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1348" hits="4" branch="false" />
+                <line number="1349" hits="4" branch="false" />
+                <line number="1350" hits="4" branch="false" />
+                <line number="1351" hits="4" branch="false" />
+                <line number="1352" hits="4" branch="false" />
+                <line number="1353" hits="4" branch="false" />
+                <line number="1354" hits="4" branch="false" />
+                <line number="1356" hits="8" branch="false" />
+                <line number="1357" hits="8" branch="false" />
+                <line number="1358" hits="8" branch="false" />
+                <line number="1359" hits="8" branch="false" />
+                <line number="1360" hits="8" branch="false" />
+                <line number="1361" hits="8" branch="false" />
+                <line number="1362" hits="8" branch="false" />
+                <line number="1363" hits="8" branch="false" />
+                <line number="1365" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1400" hits="4" branch="false" />
+                <line number="1401" hits="4" branch="false" />
+                <line number="1402" hits="4" branch="false" />
+                <line number="1403" hits="4" branch="false" />
+                <line number="1404" hits="4" branch="false" />
+                <line number="1405" hits="4" branch="false" />
+                <line number="1406" hits="4" branch="false" />
+                <line number="1407" hits="4" branch="false" />
+                <line number="1409" hits="8" branch="false" />
+                <line number="1410" hits="8" branch="false" />
+                <line number="1411" hits="8" branch="false" />
+                <line number="1412" hits="8" branch="false" />
+                <line number="1413" hits="8" branch="false" />
+                <line number="1414" hits="8" branch="false" />
+                <line number="1415" hits="8" branch="false" />
+                <line number="1416" hits="8" branch="false" />
+                <line number="1417" hits="8" branch="false" />
+                <line number="1419" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1457" hits="4" branch="false" />
+                <line number="1458" hits="4" branch="false" />
+                <line number="1459" hits="4" branch="false" />
+                <line number="1460" hits="4" branch="false" />
+                <line number="1461" hits="4" branch="false" />
+                <line number="1462" hits="4" branch="false" />
+                <line number="1463" hits="4" branch="false" />
+                <line number="1464" hits="4" branch="false" />
+                <line number="1465" hits="4" branch="false" />
+                <line number="1467" hits="8" branch="false" />
+                <line number="1468" hits="8" branch="false" />
+                <line number="1469" hits="8" branch="false" />
+                <line number="1470" hits="8" branch="false" />
+                <line number="1471" hits="8" branch="false" />
+                <line number="1472" hits="8" branch="false" />
+                <line number="1473" hits="8" branch="false" />
+                <line number="1474" hits="8" branch="false" />
+                <line number="1475" hits="8" branch="false" />
+                <line number="1476" hits="8" branch="false" />
+                <line number="1478" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1520" hits="4" branch="false" />
+                <line number="1521" hits="4" branch="false" />
+                <line number="1522" hits="4" branch="false" />
+                <line number="1523" hits="4" branch="false" />
+                <line number="1524" hits="4" branch="false" />
+                <line number="1525" hits="4" branch="false" />
+                <line number="1526" hits="4" branch="false" />
+                <line number="1527" hits="4" branch="false" />
+                <line number="1528" hits="4" branch="false" />
+                <line number="1529" hits="4" branch="false" />
+                <line number="1531" hits="8" branch="false" />
+                <line number="1532" hits="8" branch="false" />
+                <line number="1533" hits="8" branch="false" />
+                <line number="1534" hits="8" branch="false" />
+                <line number="1535" hits="8" branch="false" />
+                <line number="1536" hits="8" branch="false" />
+                <line number="1537" hits="8" branch="false" />
+                <line number="1538" hits="8" branch="false" />
+                <line number="1539" hits="8" branch="false" />
+                <line number="1540" hits="8" branch="false" />
+                <line number="1541" hits="8" branch="false" />
+                <line number="1543" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1589" hits="4" branch="false" />
+                <line number="1590" hits="4" branch="false" />
+                <line number="1591" hits="4" branch="false" />
+                <line number="1592" hits="4" branch="false" />
+                <line number="1593" hits="4" branch="false" />
+                <line number="1594" hits="4" branch="false" />
+                <line number="1595" hits="4" branch="false" />
+                <line number="1596" hits="4" branch="false" />
+                <line number="1597" hits="4" branch="false" />
+                <line number="1598" hits="4" branch="false" />
+                <line number="1599" hits="4" branch="false" />
+                <line number="1601" hits="8" branch="false" />
+                <line number="1602" hits="8" branch="false" />
+                <line number="1603" hits="8" branch="false" />
+                <line number="1604" hits="8" branch="false" />
+                <line number="1605" hits="8" branch="false" />
+                <line number="1606" hits="8" branch="false" />
+                <line number="1607" hits="8" branch="false" />
+                <line number="1608" hits="8" branch="false" />
+                <line number="1609" hits="8" branch="false" />
+                <line number="1610" hits="8" branch="false" />
+                <line number="1611" hits="8" branch="false" />
+                <line number="1612" hits="8" branch="false" />
+                <line number="1614" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="24">
+              <lines>
+                <line number="1675" hits="100" branch="false" />
+                <line number="1676" hits="100" branch="false" />
+                <line number="1677" hits="100" branch="false" />
+                <line number="1678" hits="100" branch="false" />
+                <line number="1679" hits="100" branch="false" />
+                <line number="1680" hits="100" branch="false" />
+                <line number="1681" hits="100" branch="false" />
+                <line number="1682" hits="100" branch="false" />
+                <line number="1683" hits="100" branch="false" />
+                <line number="1684" hits="100" branch="false" />
+                <line number="1685" hits="100" branch="false" />
+                <line number="1686" hits="100" branch="false" />
+                <line number="1688" hits="200" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1689" hits="200" branch="false" />
+                <line number="1690" hits="200" branch="true" condition-coverage="100% (4/4)" />
+                <line number="1692" hits="200" branch="true" condition-coverage="100% (4/4)" />
+                <line number="1693" hits="184" branch="false" />
+                <line number="1694" hits="192" branch="false" />
+                <line number="1695" hits="200" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1696" hits="360" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1697" hits="400" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1701" hits="208" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1703" hits="200" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1705" hits="8" branch="false" />
+                <line number="1706" hits="8" branch="false" />
+                <line number="1707" hits="104" branch="false" />
+                <line number="1708" hits="200" branch="true" condition-coverage="100% (4/4)" />
+                <line number="1709" hits="76" branch="false" />
+                <line number="1711" hits="24" branch="false" />
+                <line number="1712" hits="48" branch="false" />
+                <line number="1713" hits="100" branch="false" />
+                <line number="1714" hits="200" branch="false" />
+                <line number="1715" hits="200" branch="false" />
+                <line number="1716" hits="200" branch="false" />
+                <line number="1717" hits="200" branch="false" />
+                <line number="1718" hits="200" branch="false" />
+                <line number="1719" hits="200" branch="false" />
+                <line number="1720" hits="200" branch="false" />
+                <line number="1721" hits="200" branch="false" />
+                <line number="1722" hits="200" branch="false" />
+                <line number="1723" hits="200" branch="false" />
+                <line number="1724" hits="200" branch="false" />
+                <line number="1726" hits="200" branch="false" />
+              </lines>
+            </method>
+            <method name="Source" signature="(System.String)" line-rate="1" branch-rate="1" complexity="8">
+              <lines>
+                <line number="1738" hits="108" branch="false" />
+                <line number="1739" hits="108" branch="false" />
+                <line number="1742" hits="216" branch="false" />
+                <line number="1744" hits="216" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1745" hits="136" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1746" hits="8" branch="false" />
+                <line number="1747" hits="64" branch="false" />
+                <line number="1749" hits="128" branch="false" />
+                <line number="1751" hits="128" branch="false" />
+                <line number="1752" hits="128" branch="false" />
+                <line number="1753" hits="944" branch="false" />
+                <line number="1754" hits="944" branch="false" />
+                <line number="1755" hits="944" branch="false" />
+                <line number="1756" hits="944" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1757" hits="128" branch="false" />
+                <line number="1758" hits="128" branch="false" />
+                <line number="1759" hits="408" branch="false" />
+                <line number="1760" hits="816" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1761" hits="72" branch="false" />
+                <line number="1762" hits="40" branch="false" />
+                <line number="1763" hits="80" branch="false" />
+                <line number="1764" hits="108" branch="false" />
+                <line number="1767" hits="216" branch="false" />
+                <line number="1769" hits="216" branch="false" />
+              </lines>
+            </method>
+            <method name="DefaultSource" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1776" hits="4" branch="false" />
+                <line number="1777" hits="4" branch="false" />
+                <line number="1779" hits="8" branch="false" />
+                <line number="1781" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="DefaultSource" signature="(System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1789" hits="4" branch="false" />
+                <line number="1790" hits="4" branch="false" />
+                <line number="1791" hits="4" branch="false" />
+                <line number="1793" hits="8" branch="false" />
+                <line number="1795" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="MaxSource" signature="(System.String)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="1805" hits="116" branch="false" />
+                <line number="1806" hits="116" branch="false" />
+                <line number="1808" hits="232" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1809" hits="16" branch="false" />
+                <line number="1810" hits="124" branch="false" />
+                <line number="1812" hits="232" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1814" hits="232" branch="false" />
+              </lines>
+            </method>
+            <method name="IsSourceRegisteredToLog" signature="(System.String,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1823" hits="4" branch="false" />
+                <line number="1824" hits="4" branch="false" />
+                <line number="1825" hits="4" branch="false" />
+                <line number="1826" hits="4" branch="false" />
+                <line number="1828" hits="8" branch="false" />
+                <line number="1830" hits="8" branch="false" />
+                <line number="1832" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="CanReadRegistryForLogAndSource" signature="(System.String,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1841" hits="4" branch="false" />
+                <line number="1842" hits="4" branch="false" />
+                <line number="1843" hits="4" branch="false" />
+                <line number="1844" hits="4" branch="false" />
+                <line number="1846" hits="8" branch="false" />
+                <line number="1848" hits="8" branch="false" />
+                <line number="1850" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="CanReadRegistryForLog" signature="(System.String,System.String,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1859" hits="4" branch="false" />
+                <line number="1860" hits="4" branch="false" />
+                <line number="1861" hits="4" branch="false" />
+                <line number="1862" hits="4" branch="false" />
+                <line number="1864" hits="8" branch="false" />
+                <line number="1866" hits="8" branch="false" />
+                <line number="1868" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="GetLog" signature="(System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1887" hits="4" branch="false" />
+                <line number="1888" hits="4" branch="false" />
+                <line number="1889" hits="4" branch="false" />
+                <line number="1891" hits="8" branch="false" />
+                <line number="1892" hits="8" branch="false" />
+                <line number="1893" hits="8" branch="false" />
+                <line number="1894" hits="8" branch="false" />
+                <line number="1895" hits="8" branch="false" />
+                <line number="1897" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="GetLog" signature="(System.String,System.String,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1920" hits="4" branch="false" />
+                <line number="1921" hits="4" branch="false" />
+                <line number="1922" hits="4" branch="false" />
+                <line number="1923" hits="4" branch="false" />
+                <line number="1924" hits="4" branch="false" />
+                <line number="1926" hits="8" branch="false" />
+                <line number="1927" hits="8" branch="false" />
+                <line number="1928" hits="8" branch="false" />
+                <line number="1929" hits="8" branch="false" />
+                <line number="1930" hits="8" branch="false" />
+                <line number="1931" hits="8" branch="false" />
+                <line number="1933" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="GetLog" signature="(System.String,System.String,System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1959" hits="4" branch="false" />
+                <line number="1960" hits="4" branch="false" />
+                <line number="1961" hits="4" branch="false" />
+                <line number="1962" hits="4" branch="false" />
+                <line number="1963" hits="4" branch="false" />
+                <line number="1964" hits="4" branch="false" />
+                <line number="1966" hits="8" branch="false" />
+                <line number="1967" hits="8" branch="false" />
+                <line number="1968" hits="8" branch="false" />
+                <line number="1969" hits="8" branch="false" />
+                <line number="1970" hits="8" branch="false" />
+                <line number="1971" hits="8" branch="false" />
+                <line number="1972" hits="8" branch="false" />
+                <line number="1974" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="GetLog" signature="(System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="2004" hits="4" branch="false" />
+                <line number="2005" hits="4" branch="false" />
+                <line number="2006" hits="4" branch="false" />
+                <line number="2007" hits="4" branch="false" />
+                <line number="2008" hits="4" branch="false" />
+                <line number="2009" hits="4" branch="false" />
+                <line number="2010" hits="4" branch="false" />
+                <line number="2012" hits="8" branch="false" />
+                <line number="2013" hits="8" branch="false" />
+                <line number="2014" hits="8" branch="false" />
+                <line number="2015" hits="8" branch="false" />
+                <line number="2016" hits="8" branch="false" />
+                <line number="2017" hits="8" branch="false" />
+                <line number="2018" hits="8" branch="false" />
+                <line number="2020" hits="8" branch="false" />
               </lines>
             </method>
             <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="35" hits="8" branch="false" />
+                <line number="39" hits="8" branch="false" />
+                <line number="52" hits="104" branch="false" />
+                <line number="53" hits="208" branch="false" />
+                <line number="54" hits="208" branch="false" />
+                <line number="60" hits="20" branch="false" />
+                <line number="62" hits="40" branch="false" />
+                <line number="64" hits="40" branch="false" />
+                <line number="74" hits="8" branch="false" />
+                <line number="82" hits="8" branch="false" />
+                <line number="90" hits="8" branch="false" />
+                <line number="98" hits="8" branch="false" />
+                <line number="106" hits="8" branch="false" />
+                <line number="114" hits="8" branch="false" />
+                <line number="122" hits="8" branch="false" />
               </lines>
             </method>
             <method name="SetWriter" signature="(EventLogHelper.IEventLogWriter)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="49" hits="184" branch="false" />
-                <line number="50" hits="184" branch="false" />
+                <line number="53" hits="208" branch="false" />
+                <line number="54" hits="208" branch="false" />
+              </lines>
+            </method>
+            <method name="SetRegistryReader" signature="(EventLogHelper.IRegistryReader)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="62" hits="40" branch="false" />
+                <line number="64" hits="40" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="68" hits="8" branch="false" />
-                <line number="70" hits="8" branch="false" />
+                <line number="142" hits="8" branch="false" />
+                <line number="144" hits="8" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="91" hits="8" branch="false" />
-                <line number="93" hits="8" branch="false" />
+                <line number="165" hits="8" branch="false" />
+                <line number="167" hits="8" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="115" hits="8" branch="false" />
-                <line number="117" hits="8" branch="false" />
+                <line number="189" hits="8" branch="false" />
+                <line number="191" hits="8" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="143" hits="24" branch="false" />
-                <line number="145" hits="24" branch="false" />
+                <line number="217" hits="24" branch="false" />
+                <line number="219" hits="24" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String,System.Diagnostics.EventLogEntryType)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="172" hits="8" branch="false" />
-                <line number="174" hits="8" branch="false" />
+                <line number="246" hits="16" branch="false" />
+                <line number="248" hits="16" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String,System.String,System.Diagnostics.EventLogEntryType)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="206" hits="48" branch="false" />
-                <line number="208" hits="48" branch="false" />
+                <line number="280" hits="48" branch="false" />
+                <line number="282" hits="48" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="234" hits="8" branch="false" />
-                <line number="236" hits="8" branch="false" />
+                <line number="308" hits="8" branch="false" />
+                <line number="310" hits="8" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="267" hits="8" branch="false" />
-                <line number="269" hits="8" branch="false" />
+                <line number="341" hits="8" branch="false" />
+                <line number="343" hits="8" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="305" hits="64" branch="false" />
-                <line number="307" hits="64" branch="false" />
+                <line number="379" hits="64" branch="false" />
+                <line number="381" hits="64" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="337" hits="8" branch="false" />
-                <line number="339" hits="8" branch="false" />
+                <line number="411" hits="8" branch="false" />
+                <line number="413" hits="8" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="374" hits="16" branch="false" />
-                <line number="376" hits="16" branch="false" />
+                <line number="448" hits="16" branch="false" />
+                <line number="450" hits="16" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="416" hits="88" branch="false" />
-                <line number="418" hits="88" branch="false" />
+                <line number="490" hits="88" branch="false" />
+                <line number="492" hits="88" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.Byte[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="438" hits="8" branch="false" />
-                <line number="440" hits="8" branch="false" />
+                <line number="512" hits="8" branch="false" />
+                <line number="514" hits="8" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Byte[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="466" hits="16" branch="false" />
-                <line number="468" hits="16" branch="false" />
+                <line number="540" hits="16" branch="false" />
+                <line number="542" hits="16" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Byte[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="498" hits="24" branch="false" />
-                <line number="500" hits="24" branch="false" />
+                <line number="572" hits="24" branch="false" />
+                <line number="574" hits="24" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="534" hits="32" branch="false" />
-                <line number="536" hits="32" branch="false" />
+                <line number="608" hits="32" branch="false" />
+                <line number="610" hits="32" branch="false" />
               </lines>
             </method>
             <method name="Log" signature="(System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="575" hits="8" branch="false" />
-                <line number="577" hits="8" branch="false" />
+                <line number="649" hits="8" branch="false" />
+                <line number="651" hits="8" branch="false" />
               </lines>
             </method>
-            <method name="Log" signature="(System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[])" line-rate="1" branch-rate="1" complexity="18">
+            <method name="Log" signature="(System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="621" hits="184" branch="true" condition-coverage="100% (2/2)" />
-                <line number="622" hits="184" branch="false" />
-                <line number="624" hits="184" branch="true" condition-coverage="100% (4/4)" />
-                <line number="625" hits="168" branch="false" />
-                <line number="626" hits="176" branch="false" />
-                <line number="627" hits="184" branch="true" condition-coverage="100% (2/2)" />
-                <line number="628" hits="328" branch="true" condition-coverage="100% (2/2)" />
-                <line number="629" hits="368" branch="true" condition-coverage="100% (2/2)" />
-                <line number="634" hits="184" branch="true" condition-coverage="100% (2/2)" />
-                <line number="636" hits="8" branch="false" />
-                <line number="637" hits="8" branch="false" />
-                <line number="638" hits="96" branch="false" />
-                <line number="639" hits="184" branch="true" condition-coverage="100% (4/4)" />
-                <line number="640" hits="68" branch="false" />
-                <line number="642" hits="24" branch="false" />
-                <line number="643" hits="48" branch="false" />
-                <line number="644" hits="92" branch="false" />
-                <line number="645" hits="184" branch="false" />
-                <line number="647" hits="184" branch="false" />
+                <line number="695" hits="56" branch="false" />
+                <line number="696" hits="56" branch="false" />
+                <line number="697" hits="56" branch="false" />
+                <line number="698" hits="56" branch="false" />
+                <line number="699" hits="56" branch="false" />
+                <line number="700" hits="56" branch="false" />
+                <line number="701" hits="56" branch="false" />
+                <line number="702" hits="56" branch="false" />
+                <line number="703" hits="56" branch="false" />
+                <line number="705" hits="56" branch="false" />
               </lines>
             </method>
-            <method name="GetDefaultEventSourceName" signature="(System.String)" line-rate="1" branch-rate="1" complexity="8">
+            <method name="Log" signature="(System.String,System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="658" hits="184" branch="false" />
-                <line number="660" hits="184" branch="true" condition-coverage="100% (2/2)" />
-                <line number="662" hits="104" branch="false" />
-                <line number="664" hits="104" branch="false" />
-                <line number="665" hits="104" branch="false" />
-                <line number="666" hits="416" branch="false" />
-                <line number="667" hits="416" branch="false" />
-                <line number="668" hits="416" branch="false" />
-                <line number="669" hits="416" branch="true" condition-coverage="100% (2/2)" />
-                <line number="670" hits="104" branch="false" />
-                <line number="671" hits="104" branch="false" />
-                <line number="672" hits="156" branch="false" />
-                <line number="673" hits="312" branch="true" condition-coverage="100% (2/2)" />
-                <line number="674" hits="40" branch="false" />
-                <line number="675" hits="80" branch="false" />
-                <line number="676" hits="92" branch="false" />
-                <line number="679" hits="192" branch="true" condition-coverage="100% (2/2)" />
-                <line number="681" hits="184" branch="false" />
-                <line number="683" hits="184" branch="false" />
+                <line number="750" hits="184" branch="false" />
+                <line number="751" hits="184" branch="false" />
+                <line number="752" hits="184" branch="false" />
+                <line number="753" hits="184" branch="false" />
+                <line number="754" hits="184" branch="false" />
+                <line number="755" hits="184" branch="false" />
+                <line number="756" hits="184" branch="false" />
+                <line number="757" hits="184" branch="false" />
+                <line number="758" hits="184" branch="false" />
+                <line number="759" hits="184" branch="false" />
+                <line number="761" hits="184" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="811" hits="184" branch="false" />
+                <line number="812" hits="184" branch="false" />
+                <line number="813" hits="184" branch="false" />
+                <line number="814" hits="184" branch="false" />
+                <line number="815" hits="184" branch="false" />
+                <line number="816" hits="184" branch="false" />
+                <line number="817" hits="184" branch="false" />
+                <line number="818" hits="184" branch="false" />
+                <line number="819" hits="184" branch="false" />
+                <line number="820" hits="184" branch="false" />
+                <line number="821" hits="184" branch="false" />
+                <line number="823" hits="184" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="849" hits="8" branch="false" />
+                <line number="850" hits="8" branch="false" />
+                <line number="851" hits="8" branch="false" />
+                <line number="852" hits="8" branch="false" />
+                <line number="853" hits="8" branch="false" />
+                <line number="855" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="887" hits="8" branch="false" />
+                <line number="888" hits="8" branch="false" />
+                <line number="889" hits="8" branch="false" />
+                <line number="890" hits="8" branch="false" />
+                <line number="891" hits="8" branch="false" />
+                <line number="892" hits="8" branch="false" />
+                <line number="894" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="930" hits="8" branch="false" />
+                <line number="931" hits="8" branch="false" />
+                <line number="932" hits="8" branch="false" />
+                <line number="933" hits="8" branch="false" />
+                <line number="934" hits="8" branch="false" />
+                <line number="935" hits="8" branch="false" />
+                <line number="936" hits="8" branch="false" />
+                <line number="938" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="978" hits="8" branch="false" />
+                <line number="979" hits="8" branch="false" />
+                <line number="980" hits="8" branch="false" />
+                <line number="981" hits="8" branch="false" />
+                <line number="982" hits="8" branch="false" />
+                <line number="983" hits="8" branch="false" />
+                <line number="984" hits="8" branch="false" />
+                <line number="985" hits="8" branch="false" />
+                <line number="987" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1031" hits="8" branch="false" />
+                <line number="1032" hits="8" branch="false" />
+                <line number="1033" hits="8" branch="false" />
+                <line number="1034" hits="8" branch="false" />
+                <line number="1035" hits="8" branch="false" />
+                <line number="1036" hits="8" branch="false" />
+                <line number="1037" hits="8" branch="false" />
+                <line number="1038" hits="8" branch="false" />
+                <line number="1039" hits="8" branch="false" />
+                <line number="1041" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1090" hits="8" branch="false" />
+                <line number="1091" hits="8" branch="false" />
+                <line number="1092" hits="8" branch="false" />
+                <line number="1093" hits="8" branch="false" />
+                <line number="1094" hits="8" branch="false" />
+                <line number="1095" hits="8" branch="false" />
+                <line number="1096" hits="8" branch="false" />
+                <line number="1097" hits="8" branch="false" />
+                <line number="1098" hits="8" branch="false" />
+                <line number="1099" hits="8" branch="false" />
+                <line number="1101" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1155" hits="8" branch="false" />
+                <line number="1156" hits="8" branch="false" />
+                <line number="1157" hits="8" branch="false" />
+                <line number="1158" hits="8" branch="false" />
+                <line number="1159" hits="8" branch="false" />
+                <line number="1160" hits="8" branch="false" />
+                <line number="1161" hits="8" branch="false" />
+                <line number="1162" hits="8" branch="false" />
+                <line number="1163" hits="8" branch="false" />
+                <line number="1164" hits="8" branch="false" />
+                <line number="1165" hits="8" branch="false" />
+                <line number="1167" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1222" hits="192" branch="false" />
+                <line number="1223" hits="192" branch="false" />
+                <line number="1224" hits="192" branch="false" />
+                <line number="1225" hits="192" branch="false" />
+                <line number="1226" hits="192" branch="false" />
+                <line number="1227" hits="192" branch="false" />
+                <line number="1228" hits="192" branch="false" />
+                <line number="1229" hits="192" branch="false" />
+                <line number="1230" hits="192" branch="false" />
+                <line number="1231" hits="192" branch="false" />
+                <line number="1232" hits="192" branch="false" />
+                <line number="1233" hits="192" branch="false" />
+                <line number="1235" hits="192" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1265" hits="8" branch="false" />
+                <line number="1266" hits="8" branch="false" />
+                <line number="1267" hits="8" branch="false" />
+                <line number="1268" hits="8" branch="false" />
+                <line number="1269" hits="8" branch="false" />
+                <line number="1270" hits="8" branch="false" />
+                <line number="1272" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1308" hits="8" branch="false" />
+                <line number="1309" hits="8" branch="false" />
+                <line number="1310" hits="8" branch="false" />
+                <line number="1311" hits="8" branch="false" />
+                <line number="1312" hits="8" branch="false" />
+                <line number="1313" hits="8" branch="false" />
+                <line number="1314" hits="8" branch="false" />
+                <line number="1316" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1356" hits="8" branch="false" />
+                <line number="1357" hits="8" branch="false" />
+                <line number="1358" hits="8" branch="false" />
+                <line number="1359" hits="8" branch="false" />
+                <line number="1360" hits="8" branch="false" />
+                <line number="1361" hits="8" branch="false" />
+                <line number="1362" hits="8" branch="false" />
+                <line number="1363" hits="8" branch="false" />
+                <line number="1365" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1409" hits="8" branch="false" />
+                <line number="1410" hits="8" branch="false" />
+                <line number="1411" hits="8" branch="false" />
+                <line number="1412" hits="8" branch="false" />
+                <line number="1413" hits="8" branch="false" />
+                <line number="1414" hits="8" branch="false" />
+                <line number="1415" hits="8" branch="false" />
+                <line number="1416" hits="8" branch="false" />
+                <line number="1417" hits="8" branch="false" />
+                <line number="1419" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1467" hits="8" branch="false" />
+                <line number="1468" hits="8" branch="false" />
+                <line number="1469" hits="8" branch="false" />
+                <line number="1470" hits="8" branch="false" />
+                <line number="1471" hits="8" branch="false" />
+                <line number="1472" hits="8" branch="false" />
+                <line number="1473" hits="8" branch="false" />
+                <line number="1474" hits="8" branch="false" />
+                <line number="1475" hits="8" branch="false" />
+                <line number="1476" hits="8" branch="false" />
+                <line number="1478" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1531" hits="8" branch="false" />
+                <line number="1532" hits="8" branch="false" />
+                <line number="1533" hits="8" branch="false" />
+                <line number="1534" hits="8" branch="false" />
+                <line number="1535" hits="8" branch="false" />
+                <line number="1536" hits="8" branch="false" />
+                <line number="1537" hits="8" branch="false" />
+                <line number="1538" hits="8" branch="false" />
+                <line number="1539" hits="8" branch="false" />
+                <line number="1540" hits="8" branch="false" />
+                <line number="1541" hits="8" branch="false" />
+                <line number="1543" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1601" hits="8" branch="false" />
+                <line number="1602" hits="8" branch="false" />
+                <line number="1603" hits="8" branch="false" />
+                <line number="1604" hits="8" branch="false" />
+                <line number="1605" hits="8" branch="false" />
+                <line number="1606" hits="8" branch="false" />
+                <line number="1607" hits="8" branch="false" />
+                <line number="1608" hits="8" branch="false" />
+                <line number="1609" hits="8" branch="false" />
+                <line number="1610" hits="8" branch="false" />
+                <line number="1611" hits="8" branch="false" />
+                <line number="1612" hits="8" branch="false" />
+                <line number="1614" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="Log" signature="(System.String,System.String,System.String,System.String,System.Diagnostics.EventLogEntryType,System.Int32,System.Int16,System.Byte[],System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="24">
+              <lines>
+                <line number="1688" hits="200" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1689" hits="200" branch="false" />
+                <line number="1690" hits="200" branch="true" condition-coverage="100% (4/4)" />
+                <line number="1692" hits="200" branch="true" condition-coverage="100% (4/4)" />
+                <line number="1693" hits="184" branch="false" />
+                <line number="1694" hits="192" branch="false" />
+                <line number="1695" hits="200" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1696" hits="360" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1697" hits="400" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1701" hits="208" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1703" hits="200" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1705" hits="8" branch="false" />
+                <line number="1706" hits="8" branch="false" />
+                <line number="1707" hits="104" branch="false" />
+                <line number="1708" hits="200" branch="true" condition-coverage="100% (4/4)" />
+                <line number="1709" hits="76" branch="false" />
+                <line number="1711" hits="24" branch="false" />
+                <line number="1712" hits="48" branch="false" />
+                <line number="1713" hits="100" branch="false" />
+                <line number="1714" hits="200" branch="false" />
+                <line number="1715" hits="200" branch="false" />
+                <line number="1716" hits="200" branch="false" />
+                <line number="1717" hits="200" branch="false" />
+                <line number="1718" hits="200" branch="false" />
+                <line number="1719" hits="200" branch="false" />
+                <line number="1720" hits="200" branch="false" />
+                <line number="1721" hits="200" branch="false" />
+                <line number="1722" hits="200" branch="false" />
+                <line number="1723" hits="200" branch="false" />
+                <line number="1724" hits="200" branch="false" />
+                <line number="1726" hits="200" branch="false" />
+              </lines>
+            </method>
+            <method name="Source" signature="(System.String)" line-rate="1" branch-rate="1" complexity="8">
+              <lines>
+                <line number="1742" hits="216" branch="false" />
+                <line number="1744" hits="216" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1745" hits="136" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1746" hits="8" branch="false" />
+                <line number="1747" hits="64" branch="false" />
+                <line number="1749" hits="128" branch="false" />
+                <line number="1751" hits="128" branch="false" />
+                <line number="1752" hits="128" branch="false" />
+                <line number="1753" hits="944" branch="false" />
+                <line number="1754" hits="944" branch="false" />
+                <line number="1755" hits="944" branch="false" />
+                <line number="1756" hits="944" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1757" hits="128" branch="false" />
+                <line number="1758" hits="128" branch="false" />
+                <line number="1759" hits="408" branch="false" />
+                <line number="1760" hits="816" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1761" hits="72" branch="false" />
+                <line number="1762" hits="40" branch="false" />
+                <line number="1763" hits="80" branch="false" />
+                <line number="1764" hits="108" branch="false" />
+                <line number="1767" hits="216" branch="false" />
+                <line number="1769" hits="216" branch="false" />
+              </lines>
+            </method>
+            <method name="DefaultSource" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1779" hits="8" branch="false" />
+                <line number="1781" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="DefaultSource" signature="(System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1793" hits="8" branch="false" />
+                <line number="1795" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="MaxSource" signature="(System.String)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="1808" hits="232" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1809" hits="16" branch="false" />
+                <line number="1810" hits="124" branch="false" />
+                <line number="1812" hits="232" branch="true" condition-coverage="100% (2/2)" />
+                <line number="1814" hits="232" branch="false" />
+              </lines>
+            </method>
+            <method name="IsSourceRegisteredToLog" signature="(System.String,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1828" hits="8" branch="false" />
+                <line number="1830" hits="8" branch="false" />
+                <line number="1832" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="CanReadRegistryForLogAndSource" signature="(System.String,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1846" hits="8" branch="false" />
+                <line number="1848" hits="8" branch="false" />
+                <line number="1850" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="CanReadRegistryForLog" signature="(System.String,System.String,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1864" hits="8" branch="false" />
+                <line number="1866" hits="8" branch="false" />
+                <line number="1868" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="GetLog" signature="(System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1891" hits="8" branch="false" />
+                <line number="1892" hits="8" branch="false" />
+                <line number="1893" hits="8" branch="false" />
+                <line number="1894" hits="8" branch="false" />
+                <line number="1895" hits="8" branch="false" />
+                <line number="1897" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="GetLog" signature="(System.String,System.String,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1926" hits="8" branch="false" />
+                <line number="1927" hits="8" branch="false" />
+                <line number="1928" hits="8" branch="false" />
+                <line number="1929" hits="8" branch="false" />
+                <line number="1930" hits="8" branch="false" />
+                <line number="1931" hits="8" branch="false" />
+                <line number="1933" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="GetLog" signature="(System.String,System.String,System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1966" hits="8" branch="false" />
+                <line number="1967" hits="8" branch="false" />
+                <line number="1968" hits="8" branch="false" />
+                <line number="1969" hits="8" branch="false" />
+                <line number="1970" hits="8" branch="false" />
+                <line number="1971" hits="8" branch="false" />
+                <line number="1972" hits="8" branch="false" />
+                <line number="1974" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="GetLog" signature="(System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="2012" hits="8" branch="false" />
+                <line number="2013" hits="8" branch="false" />
+                <line number="2014" hits="8" branch="false" />
+                <line number="2015" hits="8" branch="false" />
+                <line number="2016" hits="8" branch="false" />
+                <line number="2017" hits="8" branch="false" />
+                <line number="2018" hits="8" branch="false" />
+                <line number="2020" hits="8" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="35" hits="8" branch="false" />
-            <line number="48" hits="92" branch="false" />
-            <line number="49" hits="184" branch="false" />
-            <line number="50" hits="184" branch="false" />
-            <line number="65" hits="4" branch="false" />
-            <line number="66" hits="4" branch="false" />
-            <line number="68" hits="8" branch="false" />
-            <line number="70" hits="8" branch="false" />
-            <line number="87" hits="4" branch="false" />
-            <line number="88" hits="4" branch="false" />
-            <line number="89" hits="4" branch="false" />
-            <line number="91" hits="8" branch="false" />
-            <line number="93" hits="8" branch="false" />
-            <line number="111" hits="4" branch="false" />
-            <line number="112" hits="4" branch="false" />
-            <line number="113" hits="4" branch="false" />
-            <line number="115" hits="8" branch="false" />
-            <line number="117" hits="8" branch="false" />
-            <line number="138" hits="12" branch="false" />
-            <line number="139" hits="12" branch="false" />
-            <line number="140" hits="12" branch="false" />
-            <line number="141" hits="12" branch="false" />
-            <line number="143" hits="24" branch="false" />
-            <line number="145" hits="24" branch="false" />
-            <line number="167" hits="4" branch="false" />
-            <line number="168" hits="4" branch="false" />
-            <line number="169" hits="4" branch="false" />
-            <line number="170" hits="4" branch="false" />
-            <line number="172" hits="8" branch="false" />
-            <line number="174" hits="8" branch="false" />
-            <line number="200" hits="24" branch="false" />
-            <line number="201" hits="24" branch="false" />
-            <line number="202" hits="24" branch="false" />
-            <line number="203" hits="24" branch="false" />
-            <line number="204" hits="24" branch="false" />
-            <line number="206" hits="48" branch="false" />
-            <line number="208" hits="48" branch="false" />
-            <line number="229" hits="4" branch="false" />
-            <line number="230" hits="4" branch="false" />
-            <line number="231" hits="4" branch="false" />
-            <line number="232" hits="4" branch="false" />
-            <line number="234" hits="8" branch="false" />
-            <line number="236" hits="8" branch="false" />
-            <line number="261" hits="4" branch="false" />
-            <line number="262" hits="4" branch="false" />
-            <line number="263" hits="4" branch="false" />
-            <line number="264" hits="4" branch="false" />
-            <line number="265" hits="4" branch="false" />
-            <line number="267" hits="8" branch="false" />
-            <line number="269" hits="8" branch="false" />
-            <line number="298" hits="32" branch="false" />
-            <line number="299" hits="32" branch="false" />
-            <line number="300" hits="32" branch="false" />
-            <line number="301" hits="32" branch="false" />
-            <line number="302" hits="32" branch="false" />
-            <line number="303" hits="32" branch="false" />
-            <line number="305" hits="64" branch="false" />
-            <line number="307" hits="64" branch="false" />
-            <line number="331" hits="4" branch="false" />
-            <line number="332" hits="4" branch="false" />
-            <line number="333" hits="4" branch="false" />
-            <line number="334" hits="4" branch="false" />
+            <line number="39" hits="8" branch="false" />
+            <line number="52" hits="104" branch="false" />
+            <line number="53" hits="208" branch="false" />
+            <line number="54" hits="208" branch="false" />
+            <line number="60" hits="20" branch="false" />
+            <line number="62" hits="40" branch="false" />
+            <line number="64" hits="40" branch="false" />
+            <line number="74" hits="8" branch="false" />
+            <line number="82" hits="8" branch="false" />
+            <line number="90" hits="8" branch="false" />
+            <line number="98" hits="8" branch="false" />
+            <line number="106" hits="8" branch="false" />
+            <line number="114" hits="8" branch="false" />
+            <line number="122" hits="8" branch="false" />
+            <line number="139" hits="4" branch="false" />
+            <line number="140" hits="4" branch="false" />
+            <line number="142" hits="8" branch="false" />
+            <line number="144" hits="8" branch="false" />
+            <line number="161" hits="4" branch="false" />
+            <line number="162" hits="4" branch="false" />
+            <line number="163" hits="4" branch="false" />
+            <line number="165" hits="8" branch="false" />
+            <line number="167" hits="8" branch="false" />
+            <line number="185" hits="4" branch="false" />
+            <line number="186" hits="4" branch="false" />
+            <line number="187" hits="4" branch="false" />
+            <line number="189" hits="8" branch="false" />
+            <line number="191" hits="8" branch="false" />
+            <line number="212" hits="12" branch="false" />
+            <line number="213" hits="12" branch="false" />
+            <line number="214" hits="12" branch="false" />
+            <line number="215" hits="12" branch="false" />
+            <line number="217" hits="24" branch="false" />
+            <line number="219" hits="24" branch="false" />
+            <line number="241" hits="8" branch="false" />
+            <line number="242" hits="8" branch="false" />
+            <line number="243" hits="8" branch="false" />
+            <line number="244" hits="8" branch="false" />
+            <line number="246" hits="16" branch="false" />
+            <line number="248" hits="16" branch="false" />
+            <line number="274" hits="24" branch="false" />
+            <line number="275" hits="24" branch="false" />
+            <line number="276" hits="24" branch="false" />
+            <line number="277" hits="24" branch="false" />
+            <line number="278" hits="24" branch="false" />
+            <line number="280" hits="48" branch="false" />
+            <line number="282" hits="48" branch="false" />
+            <line number="303" hits="4" branch="false" />
+            <line number="304" hits="4" branch="false" />
+            <line number="305" hits="4" branch="false" />
+            <line number="306" hits="4" branch="false" />
+            <line number="308" hits="8" branch="false" />
+            <line number="310" hits="8" branch="false" />
             <line number="335" hits="4" branch="false" />
-            <line number="337" hits="8" branch="false" />
-            <line number="339" hits="8" branch="false" />
-            <line number="367" hits="8" branch="false" />
-            <line number="368" hits="8" branch="false" />
-            <line number="369" hits="8" branch="false" />
-            <line number="370" hits="8" branch="false" />
-            <line number="371" hits="8" branch="false" />
-            <line number="372" hits="8" branch="false" />
-            <line number="374" hits="16" branch="false" />
-            <line number="376" hits="16" branch="false" />
-            <line number="408" hits="44" branch="false" />
-            <line number="409" hits="44" branch="false" />
-            <line number="410" hits="44" branch="false" />
-            <line number="411" hits="44" branch="false" />
-            <line number="412" hits="44" branch="false" />
-            <line number="413" hits="44" branch="false" />
-            <line number="414" hits="44" branch="false" />
-            <line number="416" hits="88" branch="false" />
-            <line number="418" hits="88" branch="false" />
-            <line number="434" hits="4" branch="false" />
-            <line number="435" hits="4" branch="false" />
-            <line number="436" hits="4" branch="false" />
-            <line number="438" hits="8" branch="false" />
-            <line number="440" hits="8" branch="false" />
-            <line number="461" hits="8" branch="false" />
-            <line number="462" hits="8" branch="false" />
-            <line number="463" hits="8" branch="false" />
-            <line number="464" hits="8" branch="false" />
-            <line number="466" hits="16" branch="false" />
-            <line number="468" hits="16" branch="false" />
-            <line number="492" hits="12" branch="false" />
-            <line number="493" hits="12" branch="false" />
-            <line number="494" hits="12" branch="false" />
-            <line number="495" hits="12" branch="false" />
-            <line number="496" hits="12" branch="false" />
-            <line number="498" hits="24" branch="false" />
-            <line number="500" hits="24" branch="false" />
-            <line number="527" hits="16" branch="false" />
-            <line number="528" hits="16" branch="false" />
-            <line number="529" hits="16" branch="false" />
-            <line number="530" hits="16" branch="false" />
-            <line number="531" hits="16" branch="false" />
-            <line number="532" hits="16" branch="false" />
-            <line number="534" hits="32" branch="false" />
-            <line number="536" hits="32" branch="false" />
-            <line number="567" hits="4" branch="false" />
-            <line number="568" hits="4" branch="false" />
-            <line number="569" hits="4" branch="false" />
-            <line number="570" hits="4" branch="false" />
-            <line number="571" hits="4" branch="false" />
-            <line number="572" hits="4" branch="false" />
-            <line number="573" hits="4" branch="false" />
-            <line number="575" hits="8" branch="false" />
-            <line number="577" hits="8" branch="false" />
-            <line number="612" hits="92" branch="false" />
-            <line number="613" hits="92" branch="false" />
-            <line number="614" hits="92" branch="false" />
-            <line number="615" hits="92" branch="false" />
-            <line number="616" hits="92" branch="false" />
-            <line number="617" hits="92" branch="false" />
-            <line number="618" hits="92" branch="false" />
-            <line number="619" hits="92" branch="false" />
-            <line number="621" hits="184" branch="true" condition-coverage="100% (2/2)" />
-            <line number="622" hits="184" branch="false" />
-            <line number="624" hits="184" branch="true" condition-coverage="100% (4/4)" />
-            <line number="625" hits="168" branch="false" />
-            <line number="626" hits="176" branch="false" />
-            <line number="627" hits="184" branch="true" condition-coverage="100% (2/2)" />
-            <line number="628" hits="328" branch="true" condition-coverage="100% (2/2)" />
-            <line number="629" hits="368" branch="true" condition-coverage="100% (2/2)" />
-            <line number="634" hits="184" branch="true" condition-coverage="100% (2/2)" />
-            <line number="636" hits="8" branch="false" />
-            <line number="637" hits="8" branch="false" />
-            <line number="638" hits="96" branch="false" />
-            <line number="639" hits="184" branch="true" condition-coverage="100% (4/4)" />
-            <line number="640" hits="68" branch="false" />
-            <line number="642" hits="24" branch="false" />
-            <line number="643" hits="48" branch="false" />
-            <line number="644" hits="92" branch="false" />
-            <line number="645" hits="184" branch="false" />
-            <line number="647" hits="184" branch="false" />
-            <line number="655" hits="92" branch="false" />
-            <line number="658" hits="184" branch="false" />
-            <line number="660" hits="184" branch="true" condition-coverage="100% (2/2)" />
-            <line number="662" hits="104" branch="false" />
-            <line number="664" hits="104" branch="false" />
-            <line number="665" hits="104" branch="false" />
-            <line number="666" hits="416" branch="false" />
-            <line number="667" hits="416" branch="false" />
-            <line number="668" hits="416" branch="false" />
-            <line number="669" hits="416" branch="true" condition-coverage="100% (2/2)" />
-            <line number="670" hits="104" branch="false" />
-            <line number="671" hits="104" branch="false" />
-            <line number="672" hits="156" branch="false" />
-            <line number="673" hits="312" branch="true" condition-coverage="100% (2/2)" />
-            <line number="674" hits="40" branch="false" />
-            <line number="675" hits="80" branch="false" />
-            <line number="676" hits="92" branch="false" />
-            <line number="679" hits="192" branch="true" condition-coverage="100% (2/2)" />
-            <line number="681" hits="184" branch="false" />
-            <line number="683" hits="184" branch="false" />
+            <line number="336" hits="4" branch="false" />
+            <line number="337" hits="4" branch="false" />
+            <line number="338" hits="4" branch="false" />
+            <line number="339" hits="4" branch="false" />
+            <line number="341" hits="8" branch="false" />
+            <line number="343" hits="8" branch="false" />
+            <line number="372" hits="32" branch="false" />
+            <line number="373" hits="32" branch="false" />
+            <line number="374" hits="32" branch="false" />
+            <line number="375" hits="32" branch="false" />
+            <line number="376" hits="32" branch="false" />
+            <line number="377" hits="32" branch="false" />
+            <line number="379" hits="64" branch="false" />
+            <line number="381" hits="64" branch="false" />
+            <line number="405" hits="4" branch="false" />
+            <line number="406" hits="4" branch="false" />
+            <line number="407" hits="4" branch="false" />
+            <line number="408" hits="4" branch="false" />
+            <line number="409" hits="4" branch="false" />
+            <line number="411" hits="8" branch="false" />
+            <line number="413" hits="8" branch="false" />
+            <line number="441" hits="8" branch="false" />
+            <line number="442" hits="8" branch="false" />
+            <line number="443" hits="8" branch="false" />
+            <line number="444" hits="8" branch="false" />
+            <line number="445" hits="8" branch="false" />
+            <line number="446" hits="8" branch="false" />
+            <line number="448" hits="16" branch="false" />
+            <line number="450" hits="16" branch="false" />
+            <line number="482" hits="44" branch="false" />
+            <line number="483" hits="44" branch="false" />
+            <line number="484" hits="44" branch="false" />
+            <line number="485" hits="44" branch="false" />
+            <line number="486" hits="44" branch="false" />
+            <line number="487" hits="44" branch="false" />
+            <line number="488" hits="44" branch="false" />
+            <line number="490" hits="88" branch="false" />
+            <line number="492" hits="88" branch="false" />
+            <line number="508" hits="4" branch="false" />
+            <line number="509" hits="4" branch="false" />
+            <line number="510" hits="4" branch="false" />
+            <line number="512" hits="8" branch="false" />
+            <line number="514" hits="8" branch="false" />
+            <line number="535" hits="8" branch="false" />
+            <line number="536" hits="8" branch="false" />
+            <line number="537" hits="8" branch="false" />
+            <line number="538" hits="8" branch="false" />
+            <line number="540" hits="16" branch="false" />
+            <line number="542" hits="16" branch="false" />
+            <line number="566" hits="12" branch="false" />
+            <line number="567" hits="12" branch="false" />
+            <line number="568" hits="12" branch="false" />
+            <line number="569" hits="12" branch="false" />
+            <line number="570" hits="12" branch="false" />
+            <line number="572" hits="24" branch="false" />
+            <line number="574" hits="24" branch="false" />
+            <line number="601" hits="16" branch="false" />
+            <line number="602" hits="16" branch="false" />
+            <line number="603" hits="16" branch="false" />
+            <line number="604" hits="16" branch="false" />
+            <line number="605" hits="16" branch="false" />
+            <line number="606" hits="16" branch="false" />
+            <line number="608" hits="32" branch="false" />
+            <line number="610" hits="32" branch="false" />
+            <line number="641" hits="4" branch="false" />
+            <line number="642" hits="4" branch="false" />
+            <line number="643" hits="4" branch="false" />
+            <line number="644" hits="4" branch="false" />
+            <line number="645" hits="4" branch="false" />
+            <line number="646" hits="4" branch="false" />
+            <line number="647" hits="4" branch="false" />
+            <line number="649" hits="8" branch="false" />
+            <line number="651" hits="8" branch="false" />
+            <line number="686" hits="28" branch="false" />
+            <line number="687" hits="28" branch="false" />
+            <line number="688" hits="28" branch="false" />
+            <line number="689" hits="28" branch="false" />
+            <line number="690" hits="28" branch="false" />
+            <line number="691" hits="28" branch="false" />
+            <line number="692" hits="28" branch="false" />
+            <line number="693" hits="28" branch="false" />
+            <line number="695" hits="56" branch="false" />
+            <line number="696" hits="56" branch="false" />
+            <line number="697" hits="56" branch="false" />
+            <line number="698" hits="56" branch="false" />
+            <line number="699" hits="56" branch="false" />
+            <line number="700" hits="56" branch="false" />
+            <line number="701" hits="56" branch="false" />
+            <line number="702" hits="56" branch="false" />
+            <line number="703" hits="56" branch="false" />
+            <line number="705" hits="56" branch="false" />
+            <line number="740" hits="92" branch="false" />
+            <line number="741" hits="92" branch="false" />
+            <line number="742" hits="92" branch="false" />
+            <line number="743" hits="92" branch="false" />
+            <line number="744" hits="92" branch="false" />
+            <line number="745" hits="92" branch="false" />
+            <line number="746" hits="92" branch="false" />
+            <line number="747" hits="92" branch="false" />
+            <line number="748" hits="92" branch="false" />
+            <line number="750" hits="184" branch="false" />
+            <line number="751" hits="184" branch="false" />
+            <line number="752" hits="184" branch="false" />
+            <line number="753" hits="184" branch="false" />
+            <line number="754" hits="184" branch="false" />
+            <line number="755" hits="184" branch="false" />
+            <line number="756" hits="184" branch="false" />
+            <line number="757" hits="184" branch="false" />
+            <line number="758" hits="184" branch="false" />
+            <line number="759" hits="184" branch="false" />
+            <line number="761" hits="184" branch="false" />
+            <line number="800" hits="92" branch="false" />
+            <line number="801" hits="92" branch="false" />
+            <line number="802" hits="92" branch="false" />
+            <line number="803" hits="92" branch="false" />
+            <line number="804" hits="92" branch="false" />
+            <line number="805" hits="92" branch="false" />
+            <line number="806" hits="92" branch="false" />
+            <line number="807" hits="92" branch="false" />
+            <line number="808" hits="92" branch="false" />
+            <line number="809" hits="92" branch="false" />
+            <line number="811" hits="184" branch="false" />
+            <line number="812" hits="184" branch="false" />
+            <line number="813" hits="184" branch="false" />
+            <line number="814" hits="184" branch="false" />
+            <line number="815" hits="184" branch="false" />
+            <line number="816" hits="184" branch="false" />
+            <line number="817" hits="184" branch="false" />
+            <line number="818" hits="184" branch="false" />
+            <line number="819" hits="184" branch="false" />
+            <line number="820" hits="184" branch="false" />
+            <line number="821" hits="184" branch="false" />
+            <line number="823" hits="184" branch="false" />
+            <line number="844" hits="4" branch="false" />
+            <line number="845" hits="4" branch="false" />
+            <line number="846" hits="4" branch="false" />
+            <line number="847" hits="4" branch="false" />
+            <line number="849" hits="8" branch="false" />
+            <line number="850" hits="8" branch="false" />
+            <line number="851" hits="8" branch="false" />
+            <line number="852" hits="8" branch="false" />
+            <line number="853" hits="8" branch="false" />
+            <line number="855" hits="8" branch="false" />
+            <line number="881" hits="4" branch="false" />
+            <line number="882" hits="4" branch="false" />
+            <line number="883" hits="4" branch="false" />
+            <line number="884" hits="4" branch="false" />
+            <line number="885" hits="4" branch="false" />
+            <line number="887" hits="8" branch="false" />
+            <line number="888" hits="8" branch="false" />
+            <line number="889" hits="8" branch="false" />
+            <line number="890" hits="8" branch="false" />
+            <line number="891" hits="8" branch="false" />
+            <line number="892" hits="8" branch="false" />
+            <line number="894" hits="8" branch="false" />
+            <line number="923" hits="4" branch="false" />
+            <line number="924" hits="4" branch="false" />
+            <line number="925" hits="4" branch="false" />
+            <line number="926" hits="4" branch="false" />
+            <line number="927" hits="4" branch="false" />
+            <line number="928" hits="4" branch="false" />
+            <line number="930" hits="8" branch="false" />
+            <line number="931" hits="8" branch="false" />
+            <line number="932" hits="8" branch="false" />
+            <line number="933" hits="8" branch="false" />
+            <line number="934" hits="8" branch="false" />
+            <line number="935" hits="8" branch="false" />
+            <line number="936" hits="8" branch="false" />
+            <line number="938" hits="8" branch="false" />
+            <line number="970" hits="4" branch="false" />
+            <line number="971" hits="4" branch="false" />
+            <line number="972" hits="4" branch="false" />
+            <line number="973" hits="4" branch="false" />
+            <line number="974" hits="4" branch="false" />
+            <line number="975" hits="4" branch="false" />
+            <line number="976" hits="4" branch="false" />
+            <line number="978" hits="8" branch="false" />
+            <line number="979" hits="8" branch="false" />
+            <line number="980" hits="8" branch="false" />
+            <line number="981" hits="8" branch="false" />
+            <line number="982" hits="8" branch="false" />
+            <line number="983" hits="8" branch="false" />
+            <line number="984" hits="8" branch="false" />
+            <line number="985" hits="8" branch="false" />
+            <line number="987" hits="8" branch="false" />
+            <line number="1022" hits="4" branch="false" />
+            <line number="1023" hits="4" branch="false" />
+            <line number="1024" hits="4" branch="false" />
+            <line number="1025" hits="4" branch="false" />
+            <line number="1026" hits="4" branch="false" />
+            <line number="1027" hits="4" branch="false" />
+            <line number="1028" hits="4" branch="false" />
+            <line number="1029" hits="4" branch="false" />
+            <line number="1031" hits="8" branch="false" />
+            <line number="1032" hits="8" branch="false" />
+            <line number="1033" hits="8" branch="false" />
+            <line number="1034" hits="8" branch="false" />
+            <line number="1035" hits="8" branch="false" />
+            <line number="1036" hits="8" branch="false" />
+            <line number="1037" hits="8" branch="false" />
+            <line number="1038" hits="8" branch="false" />
+            <line number="1039" hits="8" branch="false" />
+            <line number="1041" hits="8" branch="false" />
+            <line number="1080" hits="4" branch="false" />
+            <line number="1081" hits="4" branch="false" />
+            <line number="1082" hits="4" branch="false" />
+            <line number="1083" hits="4" branch="false" />
+            <line number="1084" hits="4" branch="false" />
+            <line number="1085" hits="4" branch="false" />
+            <line number="1086" hits="4" branch="false" />
+            <line number="1087" hits="4" branch="false" />
+            <line number="1088" hits="4" branch="false" />
+            <line number="1090" hits="8" branch="false" />
+            <line number="1091" hits="8" branch="false" />
+            <line number="1092" hits="8" branch="false" />
+            <line number="1093" hits="8" branch="false" />
+            <line number="1094" hits="8" branch="false" />
+            <line number="1095" hits="8" branch="false" />
+            <line number="1096" hits="8" branch="false" />
+            <line number="1097" hits="8" branch="false" />
+            <line number="1098" hits="8" branch="false" />
+            <line number="1099" hits="8" branch="false" />
+            <line number="1101" hits="8" branch="false" />
+            <line number="1144" hits="4" branch="false" />
+            <line number="1145" hits="4" branch="false" />
+            <line number="1146" hits="4" branch="false" />
+            <line number="1147" hits="4" branch="false" />
+            <line number="1148" hits="4" branch="false" />
+            <line number="1149" hits="4" branch="false" />
+            <line number="1150" hits="4" branch="false" />
+            <line number="1151" hits="4" branch="false" />
+            <line number="1152" hits="4" branch="false" />
+            <line number="1153" hits="4" branch="false" />
+            <line number="1155" hits="8" branch="false" />
+            <line number="1156" hits="8" branch="false" />
+            <line number="1157" hits="8" branch="false" />
+            <line number="1158" hits="8" branch="false" />
+            <line number="1159" hits="8" branch="false" />
+            <line number="1160" hits="8" branch="false" />
+            <line number="1161" hits="8" branch="false" />
+            <line number="1162" hits="8" branch="false" />
+            <line number="1163" hits="8" branch="false" />
+            <line number="1164" hits="8" branch="false" />
+            <line number="1165" hits="8" branch="false" />
+            <line number="1167" hits="8" branch="false" />
+            <line number="1210" hits="96" branch="false" />
+            <line number="1211" hits="96" branch="false" />
+            <line number="1212" hits="96" branch="false" />
+            <line number="1213" hits="96" branch="false" />
+            <line number="1214" hits="96" branch="false" />
+            <line number="1215" hits="96" branch="false" />
+            <line number="1216" hits="96" branch="false" />
+            <line number="1217" hits="96" branch="false" />
+            <line number="1218" hits="96" branch="false" />
+            <line number="1219" hits="96" branch="false" />
+            <line number="1220" hits="96" branch="false" />
+            <line number="1222" hits="192" branch="false" />
+            <line number="1223" hits="192" branch="false" />
+            <line number="1224" hits="192" branch="false" />
+            <line number="1225" hits="192" branch="false" />
+            <line number="1226" hits="192" branch="false" />
+            <line number="1227" hits="192" branch="false" />
+            <line number="1228" hits="192" branch="false" />
+            <line number="1229" hits="192" branch="false" />
+            <line number="1230" hits="192" branch="false" />
+            <line number="1231" hits="192" branch="false" />
+            <line number="1232" hits="192" branch="false" />
+            <line number="1233" hits="192" branch="false" />
+            <line number="1235" hits="192" branch="false" />
+            <line number="1259" hits="4" branch="false" />
+            <line number="1260" hits="4" branch="false" />
+            <line number="1261" hits="4" branch="false" />
+            <line number="1262" hits="4" branch="false" />
+            <line number="1263" hits="4" branch="false" />
+            <line number="1265" hits="8" branch="false" />
+            <line number="1266" hits="8" branch="false" />
+            <line number="1267" hits="8" branch="false" />
+            <line number="1268" hits="8" branch="false" />
+            <line number="1269" hits="8" branch="false" />
+            <line number="1270" hits="8" branch="false" />
+            <line number="1272" hits="8" branch="false" />
+            <line number="1301" hits="4" branch="false" />
+            <line number="1302" hits="4" branch="false" />
+            <line number="1303" hits="4" branch="false" />
+            <line number="1304" hits="4" branch="false" />
+            <line number="1305" hits="4" branch="false" />
+            <line number="1306" hits="4" branch="false" />
+            <line number="1308" hits="8" branch="false" />
+            <line number="1309" hits="8" branch="false" />
+            <line number="1310" hits="8" branch="false" />
+            <line number="1311" hits="8" branch="false" />
+            <line number="1312" hits="8" branch="false" />
+            <line number="1313" hits="8" branch="false" />
+            <line number="1314" hits="8" branch="false" />
+            <line number="1316" hits="8" branch="false" />
+            <line number="1348" hits="4" branch="false" />
+            <line number="1349" hits="4" branch="false" />
+            <line number="1350" hits="4" branch="false" />
+            <line number="1351" hits="4" branch="false" />
+            <line number="1352" hits="4" branch="false" />
+            <line number="1353" hits="4" branch="false" />
+            <line number="1354" hits="4" branch="false" />
+            <line number="1356" hits="8" branch="false" />
+            <line number="1357" hits="8" branch="false" />
+            <line number="1358" hits="8" branch="false" />
+            <line number="1359" hits="8" branch="false" />
+            <line number="1360" hits="8" branch="false" />
+            <line number="1361" hits="8" branch="false" />
+            <line number="1362" hits="8" branch="false" />
+            <line number="1363" hits="8" branch="false" />
+            <line number="1365" hits="8" branch="false" />
+            <line number="1400" hits="4" branch="false" />
+            <line number="1401" hits="4" branch="false" />
+            <line number="1402" hits="4" branch="false" />
+            <line number="1403" hits="4" branch="false" />
+            <line number="1404" hits="4" branch="false" />
+            <line number="1405" hits="4" branch="false" />
+            <line number="1406" hits="4" branch="false" />
+            <line number="1407" hits="4" branch="false" />
+            <line number="1409" hits="8" branch="false" />
+            <line number="1410" hits="8" branch="false" />
+            <line number="1411" hits="8" branch="false" />
+            <line number="1412" hits="8" branch="false" />
+            <line number="1413" hits="8" branch="false" />
+            <line number="1414" hits="8" branch="false" />
+            <line number="1415" hits="8" branch="false" />
+            <line number="1416" hits="8" branch="false" />
+            <line number="1417" hits="8" branch="false" />
+            <line number="1419" hits="8" branch="false" />
+            <line number="1457" hits="4" branch="false" />
+            <line number="1458" hits="4" branch="false" />
+            <line number="1459" hits="4" branch="false" />
+            <line number="1460" hits="4" branch="false" />
+            <line number="1461" hits="4" branch="false" />
+            <line number="1462" hits="4" branch="false" />
+            <line number="1463" hits="4" branch="false" />
+            <line number="1464" hits="4" branch="false" />
+            <line number="1465" hits="4" branch="false" />
+            <line number="1467" hits="8" branch="false" />
+            <line number="1468" hits="8" branch="false" />
+            <line number="1469" hits="8" branch="false" />
+            <line number="1470" hits="8" branch="false" />
+            <line number="1471" hits="8" branch="false" />
+            <line number="1472" hits="8" branch="false" />
+            <line number="1473" hits="8" branch="false" />
+            <line number="1474" hits="8" branch="false" />
+            <line number="1475" hits="8" branch="false" />
+            <line number="1476" hits="8" branch="false" />
+            <line number="1478" hits="8" branch="false" />
+            <line number="1520" hits="4" branch="false" />
+            <line number="1521" hits="4" branch="false" />
+            <line number="1522" hits="4" branch="false" />
+            <line number="1523" hits="4" branch="false" />
+            <line number="1524" hits="4" branch="false" />
+            <line number="1525" hits="4" branch="false" />
+            <line number="1526" hits="4" branch="false" />
+            <line number="1527" hits="4" branch="false" />
+            <line number="1528" hits="4" branch="false" />
+            <line number="1529" hits="4" branch="false" />
+            <line number="1531" hits="8" branch="false" />
+            <line number="1532" hits="8" branch="false" />
+            <line number="1533" hits="8" branch="false" />
+            <line number="1534" hits="8" branch="false" />
+            <line number="1535" hits="8" branch="false" />
+            <line number="1536" hits="8" branch="false" />
+            <line number="1537" hits="8" branch="false" />
+            <line number="1538" hits="8" branch="false" />
+            <line number="1539" hits="8" branch="false" />
+            <line number="1540" hits="8" branch="false" />
+            <line number="1541" hits="8" branch="false" />
+            <line number="1543" hits="8" branch="false" />
+            <line number="1589" hits="4" branch="false" />
+            <line number="1590" hits="4" branch="false" />
+            <line number="1591" hits="4" branch="false" />
+            <line number="1592" hits="4" branch="false" />
+            <line number="1593" hits="4" branch="false" />
+            <line number="1594" hits="4" branch="false" />
+            <line number="1595" hits="4" branch="false" />
+            <line number="1596" hits="4" branch="false" />
+            <line number="1597" hits="4" branch="false" />
+            <line number="1598" hits="4" branch="false" />
+            <line number="1599" hits="4" branch="false" />
+            <line number="1601" hits="8" branch="false" />
+            <line number="1602" hits="8" branch="false" />
+            <line number="1603" hits="8" branch="false" />
+            <line number="1604" hits="8" branch="false" />
+            <line number="1605" hits="8" branch="false" />
+            <line number="1606" hits="8" branch="false" />
+            <line number="1607" hits="8" branch="false" />
+            <line number="1608" hits="8" branch="false" />
+            <line number="1609" hits="8" branch="false" />
+            <line number="1610" hits="8" branch="false" />
+            <line number="1611" hits="8" branch="false" />
+            <line number="1612" hits="8" branch="false" />
+            <line number="1614" hits="8" branch="false" />
+            <line number="1675" hits="100" branch="false" />
+            <line number="1676" hits="100" branch="false" />
+            <line number="1677" hits="100" branch="false" />
+            <line number="1678" hits="100" branch="false" />
+            <line number="1679" hits="100" branch="false" />
+            <line number="1680" hits="100" branch="false" />
+            <line number="1681" hits="100" branch="false" />
+            <line number="1682" hits="100" branch="false" />
+            <line number="1683" hits="100" branch="false" />
+            <line number="1684" hits="100" branch="false" />
+            <line number="1685" hits="100" branch="false" />
+            <line number="1686" hits="100" branch="false" />
+            <line number="1688" hits="200" branch="true" condition-coverage="100% (2/2)" />
+            <line number="1689" hits="200" branch="false" />
+            <line number="1690" hits="200" branch="true" condition-coverage="100% (4/4)" />
+            <line number="1692" hits="200" branch="true" condition-coverage="100% (4/4)" />
+            <line number="1693" hits="184" branch="false" />
+            <line number="1694" hits="192" branch="false" />
+            <line number="1695" hits="200" branch="true" condition-coverage="100% (2/2)" />
+            <line number="1696" hits="360" branch="true" condition-coverage="100% (2/2)" />
+            <line number="1697" hits="400" branch="true" condition-coverage="100% (2/2)" />
+            <line number="1701" hits="208" branch="true" condition-coverage="100% (2/2)" />
+            <line number="1703" hits="200" branch="true" condition-coverage="100% (2/2)" />
+            <line number="1705" hits="8" branch="false" />
+            <line number="1706" hits="8" branch="false" />
+            <line number="1707" hits="104" branch="false" />
+            <line number="1708" hits="200" branch="true" condition-coverage="100% (4/4)" />
+            <line number="1709" hits="76" branch="false" />
+            <line number="1711" hits="24" branch="false" />
+            <line number="1712" hits="48" branch="false" />
+            <line number="1713" hits="100" branch="false" />
+            <line number="1714" hits="200" branch="false" />
+            <line number="1715" hits="200" branch="false" />
+            <line number="1716" hits="200" branch="false" />
+            <line number="1717" hits="200" branch="false" />
+            <line number="1718" hits="200" branch="false" />
+            <line number="1719" hits="200" branch="false" />
+            <line number="1720" hits="200" branch="false" />
+            <line number="1721" hits="200" branch="false" />
+            <line number="1722" hits="200" branch="false" />
+            <line number="1723" hits="200" branch="false" />
+            <line number="1724" hits="200" branch="false" />
+            <line number="1726" hits="200" branch="false" />
+            <line number="1738" hits="108" branch="false" />
+            <line number="1739" hits="108" branch="false" />
+            <line number="1742" hits="216" branch="false" />
+            <line number="1744" hits="216" branch="true" condition-coverage="100% (2/2)" />
+            <line number="1745" hits="136" branch="true" condition-coverage="100% (2/2)" />
+            <line number="1746" hits="8" branch="false" />
+            <line number="1747" hits="64" branch="false" />
+            <line number="1749" hits="128" branch="false" />
+            <line number="1751" hits="128" branch="false" />
+            <line number="1752" hits="128" branch="false" />
+            <line number="1753" hits="944" branch="false" />
+            <line number="1754" hits="944" branch="false" />
+            <line number="1755" hits="944" branch="false" />
+            <line number="1756" hits="944" branch="true" condition-coverage="100% (2/2)" />
+            <line number="1757" hits="128" branch="false" />
+            <line number="1758" hits="128" branch="false" />
+            <line number="1759" hits="408" branch="false" />
+            <line number="1760" hits="816" branch="true" condition-coverage="100% (2/2)" />
+            <line number="1761" hits="72" branch="false" />
+            <line number="1762" hits="40" branch="false" />
+            <line number="1763" hits="80" branch="false" />
+            <line number="1764" hits="108" branch="false" />
+            <line number="1767" hits="216" branch="false" />
+            <line number="1769" hits="216" branch="false" />
+            <line number="1776" hits="4" branch="false" />
+            <line number="1777" hits="4" branch="false" />
+            <line number="1779" hits="8" branch="false" />
+            <line number="1781" hits="8" branch="false" />
+            <line number="1789" hits="4" branch="false" />
+            <line number="1790" hits="4" branch="false" />
+            <line number="1791" hits="4" branch="false" />
+            <line number="1793" hits="8" branch="false" />
+            <line number="1795" hits="8" branch="false" />
+            <line number="1805" hits="116" branch="false" />
+            <line number="1806" hits="116" branch="false" />
+            <line number="1808" hits="232" branch="true" condition-coverage="100% (2/2)" />
+            <line number="1809" hits="16" branch="false" />
+            <line number="1810" hits="124" branch="false" />
+            <line number="1812" hits="232" branch="true" condition-coverage="100% (2/2)" />
+            <line number="1814" hits="232" branch="false" />
+            <line number="1823" hits="4" branch="false" />
+            <line number="1824" hits="4" branch="false" />
+            <line number="1825" hits="4" branch="false" />
+            <line number="1826" hits="4" branch="false" />
+            <line number="1828" hits="8" branch="false" />
+            <line number="1830" hits="8" branch="false" />
+            <line number="1832" hits="8" branch="false" />
+            <line number="1841" hits="4" branch="false" />
+            <line number="1842" hits="4" branch="false" />
+            <line number="1843" hits="4" branch="false" />
+            <line number="1844" hits="4" branch="false" />
+            <line number="1846" hits="8" branch="false" />
+            <line number="1848" hits="8" branch="false" />
+            <line number="1850" hits="8" branch="false" />
+            <line number="1859" hits="4" branch="false" />
+            <line number="1860" hits="4" branch="false" />
+            <line number="1861" hits="4" branch="false" />
+            <line number="1862" hits="4" branch="false" />
+            <line number="1864" hits="8" branch="false" />
+            <line number="1866" hits="8" branch="false" />
+            <line number="1868" hits="8" branch="false" />
+            <line number="1887" hits="4" branch="false" />
+            <line number="1888" hits="4" branch="false" />
+            <line number="1889" hits="4" branch="false" />
+            <line number="1891" hits="8" branch="false" />
+            <line number="1892" hits="8" branch="false" />
+            <line number="1893" hits="8" branch="false" />
+            <line number="1894" hits="8" branch="false" />
+            <line number="1895" hits="8" branch="false" />
+            <line number="1897" hits="8" branch="false" />
+            <line number="1920" hits="4" branch="false" />
+            <line number="1921" hits="4" branch="false" />
+            <line number="1922" hits="4" branch="false" />
+            <line number="1923" hits="4" branch="false" />
+            <line number="1924" hits="4" branch="false" />
+            <line number="1926" hits="8" branch="false" />
+            <line number="1927" hits="8" branch="false" />
+            <line number="1928" hits="8" branch="false" />
+            <line number="1929" hits="8" branch="false" />
+            <line number="1930" hits="8" branch="false" />
+            <line number="1931" hits="8" branch="false" />
+            <line number="1933" hits="8" branch="false" />
+            <line number="1959" hits="4" branch="false" />
+            <line number="1960" hits="4" branch="false" />
+            <line number="1961" hits="4" branch="false" />
+            <line number="1962" hits="4" branch="false" />
+            <line number="1963" hits="4" branch="false" />
+            <line number="1964" hits="4" branch="false" />
+            <line number="1966" hits="8" branch="false" />
+            <line number="1967" hits="8" branch="false" />
+            <line number="1968" hits="8" branch="false" />
+            <line number="1969" hits="8" branch="false" />
+            <line number="1970" hits="8" branch="false" />
+            <line number="1971" hits="8" branch="false" />
+            <line number="1972" hits="8" branch="false" />
+            <line number="1974" hits="8" branch="false" />
+            <line number="2004" hits="4" branch="false" />
+            <line number="2005" hits="4" branch="false" />
+            <line number="2006" hits="4" branch="false" />
+            <line number="2007" hits="4" branch="false" />
+            <line number="2008" hits="4" branch="false" />
+            <line number="2009" hits="4" branch="false" />
+            <line number="2010" hits="4" branch="false" />
+            <line number="2012" hits="8" branch="false" />
+            <line number="2013" hits="8" branch="false" />
+            <line number="2014" hits="8" branch="false" />
+            <line number="2015" hits="8" branch="false" />
+            <line number="2016" hits="8" branch="false" />
+            <line number="2017" hits="8" branch="false" />
+            <line number="2018" hits="8" branch="false" />
+            <line number="2020" hits="8" branch="false" />
           </lines>
         </class>
       </classes>
