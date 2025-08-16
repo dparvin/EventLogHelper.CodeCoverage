@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2025-08-16_02-28-27" tag="EventLogHelper Build_2025.8.16.1_#550">
+  <assembly name="EventLogHelper">
+    <class name="EventLogHelper.SmartEventLogger" coveredlines="1792" coverablelines="1792" totallines="6437" coveredbranches="84" totalbranches="84" coveredcodeelements="285" fullcoveredcodeelements="285" totalcodeelements="285" />
+  </assembly>
+</coverage>
